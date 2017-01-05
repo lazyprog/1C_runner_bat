@@ -14,7 +14,7 @@ Set base_name_1=HTS_UT_2017
 rem =========================================
 
 Set cfu_ver=11_2_2_119
-%v8_path% CONFIG /F %base_dir_1% /N "Администратор" /P "12345" /UpdateCfg %cfu_path%%cfu_ver% /UpdateDBCfg /Out "%bat_path%%base_name_1%.log"
+%v8_path% CONFIG /F %base_dir_1% /N "Администратор" /P "12345" /UpdateCfg "%cfu_path%%cfu_ver%\1cv8.cfu" /UpdateDBCfg /Out "%bat_path%%base_name_1%.log"
 
 rem ///////////////////////////////////////////////////////////////
 
